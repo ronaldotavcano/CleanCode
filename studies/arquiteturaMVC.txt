@@ -1,0 +1,21 @@
+Arquitetura MVC:
+
+Model-View-Controller: é uma arquitetura de software amplamente usada para
+organizar e estruturar o código em sistemas que envolvem interface do usuário
+e lógica de negócios. Ele separa as responsabilidades em 3 componentes
+principais: Model (modelo), View (Visão) e Controller (controlador).
+
+View -> responsável por apresentar os dados ao usuário e por lidar com a
+interface do usuário.
+
+Controller -> recebe as entradas do usuário da View, processa essas entradas
+e atualiza o Model conforme necessário. Armazena a regra de negócio do sistema.
+
+Models -> É responsável por armazenar e gerenciar os dados do aplicativo
+bem como fornecer métodos para acessar e manipular esses dados.
+
+No Django:                                Na MVC:
+                  equivalentes
+Model               <---->                Model
+View                <---->                Controller
+Template            <---->                View
