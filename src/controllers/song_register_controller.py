@@ -17,7 +17,7 @@ class SongRegisterController:
         
         year = int(new_song_informations["year"])
         if year >= 2026:
-            raise Exception("Ano de música inválido!") 
+            raise Exception("Ano de música inválido!")
     
     def __verify_if_song_already_registered(self, new_song_informations: dict) -> None:
         # Interação com Models
